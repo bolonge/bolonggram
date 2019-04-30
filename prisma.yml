@@ -1,6 +1,0 @@
-endpoint: https://us1.prisma.sh/xxs456-566280/bolonggram/dev
-datamodel: datamodel.prisma
-
-generate:
-  - generator: javascript-client
-    output: ./generated/prisma-client/
