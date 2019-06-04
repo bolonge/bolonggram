@@ -12,7 +12,7 @@ export default {
             id_in: [...following.map(user => user.id), user.id]
           }
         },
-        orderBy: "caption_ASC"
+        orderBy: "caption_DESC"
       });
     }
   }
